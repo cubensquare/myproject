@@ -2,3 +2,8 @@ kind: Pod
 apiVersion: v1
 metadata:
   name: test
+spec:
+  containers:
+  - name: test
+    image: nginx
+    containerPort: 80
