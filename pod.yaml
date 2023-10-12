@@ -12,7 +12,7 @@ spec:
    containerPort: 8080
    volumeMountPath:
    - name: volumetest123
-     mountPath: /home/lokesh/
+     mountPath: /opt/tomcat/
  volumes:
  - name: volumetest123
    persistentvolumeClaim:
