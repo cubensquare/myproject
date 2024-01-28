@@ -8,8 +8,8 @@ metadata:
 spec:
 tolerations:
 - key: infra
-  value: bangalore
-  effect: NoExecute
+  value: chennai
+  effect: NoSchedule
  containers:
  - name: test
    image: tomcat
