@@ -8,7 +8,7 @@ metadata:
 spec:
 tolerations:
 - key: infra
-  value: node
+  value: chennai
   effect: NoSchedule
  containers:
  - name: test
