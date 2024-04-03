@@ -4,7 +4,7 @@ metadata:
   labels:
     app: frontend
     run: frontendapplication
-  name: frontendapplication
+    run: frontendapplication1
 spec:
   replicas: 5
   selector:
