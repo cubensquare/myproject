@@ -4,6 +4,7 @@ metadata:
   name: test
   labels:
     color: yello
+    app: icici
   namespace: prod
 spec:
 tolerations:
