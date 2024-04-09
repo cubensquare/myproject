@@ -4,7 +4,7 @@ metadata:
   name: test
   labels:
     color: yello
-    app: icici
+    app: hdfc
   namespace: prod
 spec:
 tolerations:
