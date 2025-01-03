@@ -4,7 +4,9 @@ pipeline {
     DOCKERHUB_CREDENTIALS = credentials('dockerhub')  
   }
   stages {
+
     stage('scm') {
+
       steps {
         git 'https://github.com/cubensquare/myproject1.git'
       }
