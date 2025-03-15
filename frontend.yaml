@@ -3,8 +3,8 @@ kind: Deployment
 metadata:
   labels:
     app: frontend
+    run: frontendapplication
     run: frontendapplication1
-  name: frontendapplication
 spec:
   replicas: 5
   selector:
