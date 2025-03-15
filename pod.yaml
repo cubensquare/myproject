@@ -17,8 +17,7 @@ tolerations:
    containerPort: 8080
    volumeMountPath:
    - name: volumetest123
-     mountPath: /home/lokesh/
-     mountPath: /home/goms/
+     mountPath: /opt/tomcat/
  volumes:
  - name: volumetest123
    persistentvolumeClaim:
