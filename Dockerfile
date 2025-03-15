@@ -4,5 +4,5 @@ RUN apt install vim -y
 RUN apt install nano -y
 RUN apt install bind-utils -y
 COPY var.html  /usr/share/nginx/html/
-COPY index.html /usr/share/nginx/html
-MAINTAINER goms projects@cubensquare.com
+COPY index.html /usr/share/nginx/html<<<<<<< patch-39
+MAINTAINER goms training@cubensquare.co
